@@ -1,8 +1,10 @@
 
 
+### Project - Info - localization 에서 언어를 추가함--예)korean.
 
+### 각 파일별 정보들
 build
-```
+```rb
 ${SRCROOT}/fastlane/SwiftGen/bin/swiftgen 
 xcassets --param enumName=${TARGETNAME}Asset 
  --param imageTypeName=${TARGETNAME}ImageAsset
